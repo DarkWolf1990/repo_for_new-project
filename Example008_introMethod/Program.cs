@@ -15,5 +15,10 @@ int c2 = 22;
 int a3 = 13;
 int b3 = 23;
 int c3 = 28;
+
 int max1 = max(a1, b1, c1);
-Console.WriteLine(max1);
+int max2 = max(a2, b2, c2);
+int max3 = max(a3, b3, c3);
+int max = Max(max1, max2, max3);
+Console.WriteLine(max);
+
